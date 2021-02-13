@@ -28,23 +28,16 @@ namespace ClassMetotDemo
             musteriManager.MusteriSilme(musteri1);
             
             musteriManager.MusteriSilme(musteri2);
-            
 
-
-            musteriManager.MusteriListeleme();
-            
-            Console.WriteLine("*************");
 
             Musteri[] musteriler = new Musteri[] { musteri1, musteri2 };
-            foreach (Musteri musteri in musteriler)
-            {
-                Console.WriteLine("Ad:" + musteri.Ad);
-                Console.WriteLine("Soyad:" + musteri.Soyad);
-                Console.WriteLine("TelNo:" + musteri.TelNo);
-                Console.WriteLine("MusteriNo:" + musteri.MusteriNo);
-                Console.WriteLine("*****************");
+            musteriManager.MusteriListeleme(musteriler);
+            
+            
 
-            }
+            
+            
+          
 
 
         }
