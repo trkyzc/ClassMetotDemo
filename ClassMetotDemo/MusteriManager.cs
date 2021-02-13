@@ -16,7 +16,7 @@ namespace ClassMetotDemo
         }
         public void MusteriListeleme()
         {
-            
+            Console.WriteLine("Müşteriler listeleniyor...");
         }
     }
 }

@@ -32,7 +32,7 @@ namespace ClassMetotDemo
 
 
             musteriManager.MusteriListeleme();
-            Console.WriteLine("Musteriler listeleniyor...");
+            
             Console.WriteLine("*************");
 
             Musteri[] musteriler = new Musteri[] { musteri1, musteri2 };
