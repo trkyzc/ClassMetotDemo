@@ -38,10 +38,10 @@ namespace ClassMetotDemo
             Musteri[] musteriler = new Musteri[] { musteri1, musteri2 };
             foreach (Musteri musteri in musteriler)
             {
-                Console.WriteLine(musteri.Ad);
-                Console.WriteLine(musteri.Soyad);
-                Console.WriteLine(musteri.TelNo);
-                Console.WriteLine(musteri.MusteriNo);
+                Console.WriteLine("Ad:" + musteri.Ad);
+                Console.WriteLine("Soyad:" + musteri.Soyad);
+                Console.WriteLine("TelNo:" + musteri.TelNo);
+                Console.WriteLine("MusteriNo:" + musteri.MusteriNo);
                 Console.WriteLine("*****************");
 
             }
